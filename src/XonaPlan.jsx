@@ -34,46 +34,46 @@ const DAY_SCHEDULE = [
 
 const REFERENCIAS = [
   { cat: "Marketing Experiencial & Eventos", color: "#E63946", items: [
-    { n: "@eventoplus",             r: "Instagram + Web",   d: "La biblia del sector eventos en español." },
-    { n: "@wearefearless",          r: "Instagram",         d: "Agencia UK. Estética editorial y casos de lujo." },
-    { n: "@momentumww",             r: "Instagram+LinkedIn",d: "Momentum Worldwide. Referencia global en brand experience." },
-    { n: "@jackmorton",             r: "Instagram+LinkedIn",d: "Casos de eventos corporativos de primer nivel." },
-    { n: "experientialmarketingnews.com", r: "Web/Newsletter", d: "Datos, tendencias y casos del sector." },
+    { n: "@eventoplus",             r: "Instagram + Web",   d: "La biblia del sector eventos en español.",       url: "https://www.instagram.com/eventoplus" },
+    { n: "@wearefearless",          r: "Instagram",         d: "Agencia UK. Estética editorial y casos de lujo.", url: "https://www.instagram.com/wearefearless" },
+    { n: "@momentumww",             r: "Instagram+LinkedIn",d: "Momentum Worldwide. Referencia global en brand experience.", url: "https://www.instagram.com/momentumww" },
+    { n: "@jackmorton",             r: "Instagram+LinkedIn",d: "Casos de eventos corporativos de primer nivel.", url: "https://www.instagram.com/jackmorton" },
+    { n: "experientialmarketingnews.com", r: "Web/Newsletter", d: "Datos, tendencias y casos del sector.",      url: "https://www.experientialmarketingnews.com" },
   ]},
   { cat: "Cultura, Música & Festivales", color: "#E040FB", items: [
-    { n: "@glastonburyfestivals",   r: "Instagram",         d: "El festival que inventó la comunidad de marca." },
-    { n: "@coachella",              r: "Instagram+TikTok",  d: "Referencia en producción visual y marketing aspiracional." },
-    { n: "@boilerroom",             r: "Instagram+YouTube", d: "Identidad global con contenido de nicho." },
-    { n: "@redbull",                r: "TikTok+Instagram",  d: "La marca que se convirtió en productora." },
-    { n: "@gentlemonster",          r: "Instagram",         d: "El retail que se convirtió en destino cultural." },
+    { n: "@glastonburyfestivals",   r: "Instagram",         d: "El festival que inventó la comunidad de marca.", url: "https://www.instagram.com/glastonburyfestivals" },
+    { n: "@coachella",              r: "Instagram+TikTok",  d: "Referencia en producción visual y marketing aspiracional.", url: "https://www.instagram.com/coachella" },
+    { n: "@boilerroom",             r: "Instagram+YouTube", d: "Identidad global con contenido de nicho.",      url: "https://www.instagram.com/boilerroom" },
+    { n: "@redbull",                r: "TikTok+Instagram",  d: "La marca que se convirtió en productora.",      url: "https://www.instagram.com/redbull" },
+    { n: "@gentlemonster",          r: "Instagram",         d: "El retail que se convirtió en destino cultural.", url: "https://www.instagram.com/gentlemonster" },
   ]},
   { cat: "Diseño de Experiencias & Espacios", color: "#00BCD4", items: [
-    { n: "@meowwolfofficial",       r: "Instagram",         d: "Experiencias inmersivas. Mundos completos." },
-    { n: "@teamlab_art",            r: "Instagram",         d: "Arte digital inmersivo japonés." },
-    { n: "@superblue",              r: "Instagram",         d: "Arte inmersivo en Miami." },
-    { n: "@thewhitakergroup",       r: "Instagram",         d: "Event design de alto nivel." },
-    { n: "@refikanadol",            r: "Instagram",         d: "Data art e IA como expresión artística." },
+    { n: "@meowwolfofficial",       r: "Instagram",         d: "Experiencias inmersivas. Mundos completos.",    url: "https://www.instagram.com/meowwolfofficial" },
+    { n: "@teamlab_art",            r: "Instagram",         d: "Arte digital inmersivo japonés.",               url: "https://www.instagram.com/teamlab_art" },
+    { n: "@superblue",              r: "Instagram",         d: "Arte inmersivo en Miami.",                      url: "https://www.instagram.com/superblue" },
+    { n: "@thewhitakergroup",       r: "Instagram",         d: "Event design de alto nivel.",                   url: "https://www.instagram.com/thewhitakergroup" },
+    { n: "@refikanadol",            r: "Instagram",         d: "Data art e IA como expresión artística.",       url: "https://www.instagram.com/refikanadol" },
   ]},
   { cat: "Estrategia de Marca & Marketing", color: "#4CAF50", items: [
-    { n: "@marketingexamples",      r: "Instagram+Web",     d: "Análisis profundo de campañas. Indispensable." },
-    { n: "@ariyh.co",               r: "Web+LinkedIn",      d: "Ciencia del comportamiento aplicada al marketing." },
-    { n: "@peretti_ad",             r: "Instagram+LinkedIn",d: "Creatividad y estrategia desde Buenos Aires." },
-    { n: "@sweathead_ad",           r: "Instagram",         d: "Posts cortos con insights muy densos." },
-    { n: "theconciergeclub.com",    r: "Web",               d: "Artículos sobre experiential marketing documentados." },
+    { n: "@marketingexamples",      r: "Instagram+Web",     d: "Análisis profundo de campañas. Indispensable.", url: "https://www.instagram.com/marketingexamples" },
+    { n: "@ariyh.co",               r: "Web+LinkedIn",      d: "Ciencia del comportamiento aplicada al marketing.", url: "https://ariyh.com" },
+    { n: "@peretti_ad",             r: "Instagram+LinkedIn",d: "Creatividad y estrategia desde Buenos Aires.", url: "https://www.instagram.com/peretti_ad" },
+    { n: "@sweathead_ad",           r: "Instagram",         d: "Posts cortos con insights muy densos.",         url: "https://www.instagram.com/sweathead_ad" },
+    { n: "theconciergeclub.com",    r: "Web",               d: "Artículos sobre experiential marketing documentados.", url: "https://www.theconciergeclub.com" },
   ]},
   { cat: "Producción Audiovisual", color: "#FF9800", items: [
-    { n: "@motiondesign.school",    r: "Instagram",         d: "Motion graphics de referencia." },
-    { n: "@buck.design",            r: "Instagram",         d: "Motion design y branding audiovisual top." },
-    { n: "@viewmaster.studio",      r: "Instagram",         d: "Producción audiovisual para eventos y marcas." },
-    { n: "@thisisdapper",           r: "Instagram",         d: "Producción creativa, calidad editorial." },
-    { n: "@hellomonday",            r: "Instagram",         d: "Diseño interactivo danés de primer nivel." },
+    { n: "@motiondesign.school",    r: "Instagram",         d: "Motion graphics de referencia.",                url: "https://www.instagram.com/motiondesign.school" },
+    { n: "@buck.design",            r: "Instagram",         d: "Motion design y branding audiovisual top.",     url: "https://www.instagram.com/buck.design" },
+    { n: "@viewmaster.studio",      r: "Instagram",         d: "Producción audiovisual para eventos y marcas.", url: "https://www.instagram.com/viewmaster.studio" },
+    { n: "@thisisdapper",           r: "Instagram",         d: "Producción creativa, calidad editorial.",       url: "https://www.instagram.com/thisisdapper" },
+    { n: "@hellomonday",            r: "Instagram",         d: "Diseño interactivo danés de primer nivel.",     url: "https://www.instagram.com/hellomonday" },
   ]},
   { cat: "IA & Tecnología Creativa", color: "#9C27B0", items: [
-    { n: "@runwayml",               r: "Instagram+TikTok",  d: "Video IA. Ver qué viene cada semana." },
-    { n: "@kling_ai",               r: "TikTok+Instagram",  d: "Video IA para b-roll y eventos." },
-    { n: "@freepik",                r: "Instagram+TikTok",  d: "Freepik Spaces: workflow completo de producción." },
-    { n: "@elevenai",               r: "Instagram",         d: "ElevenLabs. Voz integrada en Spaces." },
-    { n: "@midjourney",             r: "Discord+Web",       d: "Imágenes IA. Esencial para visuales sin fotógrafo." },
+    { n: "@runwayml",               r: "Instagram+TikTok",  d: "Video IA. Ver qué viene cada semana.",          url: "https://www.instagram.com/runwayml" },
+    { n: "@kling_ai",               r: "TikTok+Instagram",  d: "Video IA para b-roll y eventos.",               url: "https://www.tiktok.com/@kling_ai" },
+    { n: "@freepik",                r: "Instagram+TikTok",  d: "Freepik Spaces: workflow completo de producción.", url: "https://www.instagram.com/freepik" },
+    { n: "@elevenai",               r: "Instagram",         d: "ElevenLabs. Voz integrada en Spaces.",          url: "https://www.instagram.com/elevenai" },
+    { n: "@midjourney",             r: "Discord+Web",       d: "Imágenes IA. Esencial para visuales sin fotógrafo.", url: "https://www.midjourney.com" },
   ]},
 ];
 
@@ -1233,7 +1233,7 @@ function CalendarioTab({ checks, toggleCheck }) {
                 const kTT = key + "-tt", kIG = key + "-ig", kST = key + "-st";
                 const isOpen = expanded === key;
                 return (
-                  <div key={di} style={{ background: "#f0f0f0", border: `1px solid ${isOpen ? "#333" : "#1e1e1e"}`, borderRadius: 8, marginBottom: 6, overflow: "hidden" }}>
+                  <div key={di} style={{ background: "#f0f0f0", border: `1px solid ${isOpen ? "#cccccc" : "#e0e0e0"}`, borderRadius: 8, marginBottom: 6, overflow: "hidden" }}>
                     <div onClick={() => setExpanded(isOpen ? null : key)} style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 16px", cursor: "pointer" }}>
                       <span style={{ color: "#E63946", fontWeight: 700, fontSize: 11, minWidth: 80, fontFamily: "monospace" }}>{day.date}</span>
                       <PillarBadge pilar={day.pilar} small />
@@ -1287,7 +1287,7 @@ function GuionesTab() {
             <div style={{ color: "#E63946", fontSize: 9, fontWeight: 700, letterSpacing: 2, marginBottom: 5, padding: "0 4px" }}>B{w.block} · S{w.number}</div>
             {w.days.map((d, di) => (
               <div key={di} onClick={() => { setSelW(wi); setSelD(di); setView("tiktok"); setShowWorkflow(false); }}
-                style={{ padding: "7px 10px", marginBottom: 3, borderRadius: 5, cursor: "pointer", background: selW === wi && selD === di ? "#E63946" : "#161616", fontSize: 11, color: selW === wi && selD === di ? "#ffffff" : "#555555" }}>
+                style={{ padding: "7px 10px", marginBottom: 3, borderRadius: 5, cursor: "pointer", background: selW === wi && selD === di ? "#E63946" : "#efefef", fontSize: 11, color: selW === wi && selD === di ? "#ffffff" : "#444444", border: selW === wi && selD === di ? "none" : "1px solid #e0e0e0" }}>
                 <div style={{ fontWeight: 700, marginBottom: 2 }}>{d.date}</div>
                 <div style={{ opacity: 0.8 }}>{PILLARS[d.pilar]?.emoji} {d.pilar}</div>
               </div>
@@ -1450,7 +1450,11 @@ function ReferenciasTab() {
             {cat.items.map((item, ii) => (
               <div key={ii} style={{ background: "#f0f0f0", borderRadius: 6, padding: 12, borderLeft: `2px solid ${cat.color}44` }}>
                 <div style={{ display: "flex", justifyContent: "space-between", gap: 8, marginBottom: 4 }}>
-                  <span style={{ color: cat.color, fontWeight: 700, fontSize: 12 }}>{item.n}</span>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" style={{ color: cat.color, fontWeight: 700, fontSize: 12, textDecoration: "none" }}
+                    onMouseEnter={e => e.target.style.textDecoration = "underline"}
+                    onMouseLeave={e => e.target.style.textDecoration = "none"}>
+                    {item.n} ↗
+                  </a>
                   <span style={{ background: "#e0e0e0", borderRadius: 3, padding: "1px 6px", fontSize: 9, color: "#777777", whiteSpace: "nowrap" }}>{item.r}</span>
                 </div>
                 <div style={{ color: "#666666", fontSize: 12, lineHeight: 1.5 }}>{item.d}</div>
@@ -1625,7 +1629,7 @@ export default function App() {
       </div>
 
       {/* Day strip */}
-      <div style={{ background: "#0f0f0f", borderBottom: "1px solid #eeeeee", padding: "8px 24px", display: "flex", gap: 6, flexWrap: "wrap" }}>
+      <div style={{ background: "#ffffff", borderBottom: "1px solid #e5e5e5", padding: "8px 24px", display: "flex", gap: 6, flexWrap: "wrap" }}>
         {DAY_SCHEDULE.map(d => (
           <div key={d.dayName} style={{ display: "flex", alignItems: "center", gap: 6, background: "#f0f0f0", borderRadius: 4, padding: "4px 10px" }}>
             <span style={{ color: "#888888", fontSize: 10 }}>{d.dayName}</span>
