@@ -1282,7 +1282,7 @@ function GuionesTab() {
             <div style={{ color: "#E63946", fontSize: 9, fontWeight: 700, letterSpacing: 2, marginBottom: 5, padding: "0 4px" }}>B{w.block} · S{w.number}</div>
             {w.days.map((d, di) => (
               <div key={di} onClick={() => { setSelW(wi); setSelD(di); setView("tiktok"); setShowWorkflow(false); }}
-                style={{ padding: "7px 10px", marginBottom: 3, borderRadius: 5, cursor: "pointer", background: selW === wi && selD === di ? "#E63946" : "#161616", fontSize: 11, color: selW === wi && selD === di ? "#ffffff" : "#555555" }}>
+                style={{ padding: "7px 10px", marginBottom: 3, borderRadius: 5, cursor: "pointer", background: selW === wi && selD === di ? "#E63946" : "#ebebeb", fontSize: 11, color: selW === wi && selD === di ? "#ffffff" : "#444444" }}>
                 <div style={{ fontWeight: 700, marginBottom: 2 }}>{d.date}</div>
                 <div style={{ opacity: 0.8 }}>{PILLARS[d.pilar]?.emoji} {d.pilar}</div>
               </div>
@@ -1330,7 +1330,7 @@ function GuionesTab() {
               {view === "instagram" && day.instagram.historia && (
                 <div style={{ background: "#f0fffe", borderRadius: 6, padding: 12, marginTop: 12, borderLeft: "3px solid #00BCD4" }}>
                   <div style={{ color: "#00BCD4", fontSize: 10, fontWeight: 700, letterSpacing: 2, marginBottom: 6 }}>📲 HISTORIA — {day.instagram.historia.tipo}</div>
-                  <div style={{ color: "#b2ebf2", fontSize: 12, lineHeight: 1.7 }}>{day.instagram.historia.instruccion}</div>
+                  <div style={{ color: "#333333", fontSize: 12, lineHeight: 1.7 }}>{day.instagram.historia.instruccion}</div>
                 </div>
               )}
             </div>
@@ -1382,7 +1382,7 @@ function GuionesTab() {
                   {p.prompt_video && (
                     <div style={{ background: "#fdf0fd", borderRadius: 4, padding: 8 }}>
                       <div style={{ color: "#E040FB", fontSize: 9, letterSpacing: 2, marginBottom: 3 }}>🎥 VIDEO GEN — Kling 3.0 · 9:16 · 5s</div>
-                      <div style={{ color: "#ce93d8", fontSize: 11, fontFamily: "monospace", lineHeight: 1.5 }}>{p.prompt_video}</div>
+                      <div style={{ color: "#9c27b0", fontSize: 11, fontFamily: "monospace", lineHeight: 1.5 }}>{p.prompt_video}</div>
                     </div>
                   )}
                 </div>
@@ -1631,7 +1631,7 @@ export default function App() {
       </div>
 
       {/* Day strip */}
-      <div style={{ background: "#0f0f0f", borderBottom: "1px solid #eeeeee", padding: "8px 24px", display: "flex", gap: 6, flexWrap: "wrap" }}>
+      <div style={{ background: "#f0f0f0", borderBottom: "1px solid #eeeeee", padding: "8px 24px", display: "flex", gap: 6, flexWrap: "wrap" }}>
         {DAY_SCHEDULE.map(d => (
           <div key={d.dayName} style={{ display: "flex", alignItems: "center", gap: 6, background: "#f0f0f0", borderRadius: 4, padding: "4px 10px" }}>
             <span style={{ color: "#888888", fontSize: 10 }}>{d.dayName}</span>
